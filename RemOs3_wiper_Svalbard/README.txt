@@ -33,7 +33,7 @@ Controlled aspects:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Usage Instructions:
 
-1st argument: call the program "wiper_control" (in C:'YOUR PATH'\wiper_control_last_version\Debug)
+1st argument: call the program "wiper_control" (in C:'YOUR PATH'\RemOs3_wiper_Svalbard\Debug)
 
 2nd argument: Mode selection
 	> select the displacement mode: 'ROT' to move full rotations or 'DEG' for angular displacement under 360 degrees
