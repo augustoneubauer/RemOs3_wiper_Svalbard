@@ -12,6 +12,7 @@ Installation instructions:
 If the "Definition File" is not included, please:
 > Download the library files at https://www.maxongroup.com/medias/sys_master/root/8839866548254/EPOS-Windows-DLL-En.zip
 > Unzip the downloaded file and access \Microsoft Visual C++\Example VC++ and move the files EposCmd.dll to C:\Windows\SysWOW64 and EposCmd64.dll to C:\Windows\System32
+> to run the software .exe, open your cmd  and call the path:  "C:YOUR_PATH\RemOs3_wiper_Svalbard\Debug" and then call the file "wiper_control" as the very first argument
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UW Webcam Scheibenwischer Control Software System Configuration:
@@ -36,7 +37,7 @@ Usage Instructions:
 
 2nd argument: Wipers displacement
 > if 'ROT' is selected, insert a value between -20 and 20 rotations;
-> if 'DEG' is select, insert a value beteween -360 and 360 degrees;
+> if 'DEG' is select, insert a value beteween -720 and 720 degrees;
 NOTE: A negative value for displacement will set a  Clockwise (-) spinning direction. A positive value will set a Counterclockwise movement
 
 3rd argument: Wipers spinning speed
@@ -44,11 +45,3 @@ NOTE: A negative value for displacement will set a  Clockwise (-) spinning direc
 
 e.g. to move the wipers 3 full turns at 4 RPM clockwise:      wiper_control ROT -3 4
 e.g. to move the wipers 45 degrees at 5 RPM counterclockwise: wiper_control DEG 45 5
-
--------!!! Still under development !!!--------
-
-1st argument others mode selection: "SETHOME" , "GOHOME" , SENSOR"  (only one argument functions)
-
-> if "SETHOME" is selected, the current position is defined as Home Position;
-> if "GOHOME" is selected, the shaft moves to reach the Home Position;
-> if "SENSOR" is selected, the program answers with the system sensor type (currently: 3 (Hall sensors)
