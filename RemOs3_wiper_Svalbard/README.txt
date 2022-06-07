@@ -14,6 +14,7 @@ Installation instructions:
 If the "Definition Files" is not included, please:
 	> Download the library files at https://www.maxongroup.com/medias/sys_master/root/8839866548254/EPOS-Windows-DLL-En.zip
 	> Unzip the downloaded file and access \Microsoft Visual C++\Example VC++ and move the files EposCmd.dll to C:\Windows\SysWOW64 and EposCmd64.dll to C:\Windows\System32
+> to run the software .exe, open your cmd  and call the path:  "C:YOUR_PATH\RemOs3_wiper_Svalbard\Debug" and then call the file "wiper_control" as the very first argument
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UW Webcam Scheibenwischer Control Software System Configuration:
