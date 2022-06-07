@@ -52,7 +52,7 @@ typedef unsigned long DWORD;
 
 
 void* keyHandle = 0;
-DWORD NodeId;
+DWORD NodeId; //Here the Node ID is defined as zero (it will move all controllers connected to the PC, a different node can be assigned in accoradance with the node in use)            
 DWORD baudrate = 0;
 DWORD timeout = 0;
 DWORD errorCode = 0;//Variable to store errors returned by EPOS functions
@@ -118,7 +118,7 @@ void SetDefaultParameters()
     deviceName = (char*)"EPOS4";
     protocolStackName = (char*)"MAXON SERIAL V2";
     interfaceName = (char*)"USB";
-    portName = (char*)"USB0";
+    portName = (char*)"USB0";  //Here the portName is defined as USB0 (a different port name can be assigned in accoradance with the port in use)   
     baudrate = 1000000;
 }
 
