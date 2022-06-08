@@ -285,7 +285,7 @@ bool DrivePosition(DWORD& pErrorCode, long new_targetPosition, long shaft_speed)
     bool immediately = true; // TRUE stars movement immediatly; FALSE waits to end of last positioning
 
 
-    DWORD profileVelocity = shaft_speed * 231 * (1);
+    DWORD profileVelocity = shaft_speed * 231 * (1);// 231 is the reduction rate in the motor. 1 is the gear ratio of the RemOs3 camera wiper
     DWORD profileAcc = 10000;
     DWORD profileDec = 10000;
     long targetPosition = new_targetPosition;
